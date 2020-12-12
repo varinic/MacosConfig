@@ -1,0 +1,2 @@
+cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=/Users/varinic/.local/llvm -DCMAKE_BUILD_TYPE=Release DLLVM_ENABLE_ASSERTIONS=On -DLLVM_TARGETS_TO_BUILD="ARM;X86;AArch64" -DLLVM_ENABLE_PROJECTS="clang;llvm" ../llvm
+
